@@ -1,0 +1,27 @@
+# Node.js関連
+node_modules
+npm-debug.log
+.pnpm-debug.log*
+.env
+.env.*.local
+
+# Nuxtのビルドファイルとキャッシュ
+.nuxt
+.cache
+.vscode
+output
+dist
+coverage
+
+# TypeScript関連（使用している場合）
+*.tsbuildinfo
+
+# バックエンドやサービスによって生成されるファイル
+.DS_Store
+Thumbs.db
+
+# Nuxt UIの特定ファイルや一時ファイル（NuxtUIを利用している場合）
+.nuxtui
+
+# VSCodeやJetBrainsの設定（特にプロジェクト固有でない場合）
+.vscode/
