@@ -1,7 +1,10 @@
 <template>
   <header class="bg-gray-800 text-white">
     <UContainer class="flex justify-between items-center p-4">
-      <div class="text-2xl font-bold">MyApp</div>
+      <h1 class="text-2xl font-bold flex gap-x-4">
+        <UAvatar src="/images/kobisouicon.png" alt="companymark" />
+        <p>K.O美創</p>
+      </h1>
       <nav>
         <ul class="flex space-x-4">
           <li><a href="/" class="hover:underline">事業案内</a></li>
